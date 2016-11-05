@@ -1,0 +1,18 @@
+<configuration>
+    <property>
+        <name>dfs.replication</name>
+        <value>3</value>
+    </property>
+    <property>
+        <name>dfs.permissions.superusergroup</name>
+        <value>jpvel</value>
+    </property>
+    <property>
+        <name>dfs.blocksize</name>
+        <value>4k</value>
+    </property>
+    <property>
+        <name>dfs.namenode.fs-limits.min-block-size</name>
+        <value>2048</value>
+    </property>
+</configuration>
